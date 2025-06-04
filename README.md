@@ -26,7 +26,13 @@ This project uses [Expo](https://expo.dev/) for development.
    ```bash
    npm start
    ```
-4. Follow the onscreen instructions to run the app on an Android or iOS simulator or on a physical device with the Expo Go app.
+4. Install the **Expo Go** app from the iOS or Android app store.
+   Open Expo Go and use its **Scan QR Code** feature to scan the code printed by
+   the `npm start` command. Scanning the QR code with the default camera app will
+   not open the app.
+5. If your device is not on the same local network as your computer, run
+   `npm start -- --tunnel` instead to generate a URL that works over the
+   internet.
 
 ## Project Structure
 
